@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2294.3412100519104!2d23.916382116064426!3d54.89693316513852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72276dd555557%3A0x2bf3519be19be30c!2sKaunas%20Information%20Technology%20School!5e0!3m2!1sen!2slt!4v1663220365860!5m2!1sen!2slt"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" width="400" height="300" style="border:0;"></iframe>
+    </div>
+    <br>
+
+    <div>
+        <video controls width="250">
+            <source src="../media/videos/video.mp4" type="video/mp4">
+        </video>
+
+    </div>
+    <br>
+    <br>
+    <div>
+        <form>
+            <label for="uid">User id:</label><br>
+            <input type="text" id="uid" name="uid"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd" required minlength="7" maxlength="12"><br>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" pattern="[A-Za-z]+"><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address"><br>
+            <label for="country">Country:</label><br>
+            <select name="country" id="country">
+                <option value="lithuania">Lithuania</option>
+                <option value="latvia">Latvia</option>
+                <option value="estonia">Estonia</option>
+                <option value="poland">Poland</option>
+                <option value="hungary">Hungary</option>
+                <option value="romania">Romania</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+                <option value="austria">Austria</option>
+                <option value="sweden">Sweden</option>
+                <option value="norway">Norway</option>
+            </select><br><br>
+            <label for="zip">ZIP Code:</label><br>
+            <input type="text" id="zip" name="zip" pattern="[0-9]+" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <p>Please choose your sex:</p>
+            <input type="radio" id="male" name="sex" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="sex" value="female">
+            <label for="female">Female</label><br>
+            <p>Please choose your languages:</p>
+            <input type="checkbox" id="lithuanian" name="lithuanian" value="Lithuanian">
+            <label for="lithunian">Lithuanian</label><br>
+            <input type="checkbox" id="english" name="english" value="English">
+            <label for="english">English</label><br>
+            <input type="checkbox" id="ukrainian" name="ukrainian" value="Ukrainian">
+            <label for="ukrainian">Ukrainian</label><br><br>
+            <div><label for="about">About</label><br>
+            <textarea id="about" name="about" rows="10" cols="50"></textarea></div>
+            <input type="submit" value="Submit">
+        </form>
+
+
+    </div>
+</body>
+
+</html>
