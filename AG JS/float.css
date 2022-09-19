@@ -1,0 +1,25 @@
+
+.remelis {
+    border: 1px solid black;
+    height: 176px;
+    width: 350px;
+    
+}
+
+img {
+    width: 50%;
+    float: right;
+border-left: 2px dotted black;    
+}
+
+h1 {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 0%;
+}
+
+h6 {
+    float: left;
+    margin-top: 0%;
+}
