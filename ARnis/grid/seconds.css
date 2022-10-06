@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "item1 item2 item2 item3 item4"
+                        "item5 item6 item7 item3 item4" 
+                        "item8 item8 item8 item8 item4"
+                        "item9 item9 item10 item11 item4"
+                        "item9 item9 item12 item13 item4";
+}
+
+.box1 {
+    background-color: #14b32b;
+    grid-area: item1;
+}
+
+.box2 {
+    background-color: #5e14b3;
+    grid-area: item2;
+}
+
+.box3 {
+    background-color: #920202;
+    grid-area: item3;
+}
+
+.box4 {
+    background-color: #000279;
+    grid-area: item4;
+}
+
+.box5 {
+    background-color: #1c5f26;
+    grid-area: item5;
+}
+
+.box6 {
+    background-color: #1894b3;
+    grid-area: item6;
+}
+
+.box7 {
+    background-color: #c8ff00;
+    grid-area: item7;
+}
+
+.box8 {
+    background-color: #00ccff;
+    grid-area: item8;
+}
+
+.box9 {
+    background-color: #fffb00;
+    grid-area: item9;
+}
+
+.box10 {
+    background-color: #ff0000;
+    grid-area: item10;
+}
+
+.box11 {
+    background-color: #300050;
+    grid-area: item11;
+}
+
+.box12 {
+    background-color: #000000;
+    grid-area: item12;
+}
+
+.box13 {
+    background-color: #38440e;
+    grid-area: item13;
+}
+
+
+
+ .hover-box:hover {
+    transform: scale(.8);
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    border:2px solid black;
+}
+body {
+    height: 100vh;
+}
+
+header {
+height: 15%;
+background-color: rgb(57, 68, 226);
+
+}
+
+.main {
+    height: 45%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.second-main {
+    display: flex;
+    height: 25%;
+    background-color: aqua;
+}
+
+footer {
+    height: 15%;
+    background-color: rgb(209, 121, 14);
+}
+
+.image-relate {
+    width: 70%;
+    background-color: green;
+}
+
+.related-posts {
+    width: 30%;
+    background-color: rgb(25, 219, 25);
+}
+.hero {
+    height: 30%;
+    width: 30%;
+    background-color: rgb(255, 2, 255);
+}
+
+.sidebar {
+    height: 70%;
+    width: 30%;
+    background-color: rgb(21, 255, 0);
+}
+
+.main-two {
+    width: 70%;
+    height: 85%;
+    background-color: rgb(0, 255, 242);
+}
+
+.extra-content {
+    width: 70%;
+    height: 15%;
+    background-color: azure;
+    background-color: blueviolet;
+}
