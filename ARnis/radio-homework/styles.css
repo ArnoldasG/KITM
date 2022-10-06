@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(54, 51, 51);
+}
+body {
+    height: 100vh;
+  
+}
+
+
+.header {
+    height: 3%;
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 100px;
+    /* background-color: red; */
+}
+
+.container {
+    height: 75%;
+    width: 90%;
+    margin-top: 12px;
+    margin-left: 100px;
+    background-color: rgb(120, 145, 145);
+}
+
+.footer {
+    height: 10%;
+    width: 90%;
+    margin-top: 28px;
+    margin-left: 100px;
+    background-color: rgb(195, 214, 214);
+    
+}
+
+.header {
+    display: flex;
+}
+
+.hosting {
+    margin-right: 39%;
+    margin-left: 15px;
+
+}
+
+.flags {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.feisbuk {
+    margin-left: 39%;
+
+}
