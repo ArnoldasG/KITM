@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    margin: 0;
+
+}
+
+.h-10 {
+    height: 10%;
+}
+
+
+.h-90 {
+    height: 90%;
+}
+
+.image-main {
+    height: 100%;
+   
+}
