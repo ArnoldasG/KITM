@@ -1,0 +1,17 @@
+@import 'variables', 'mixins';
+
+.container {
+    padding: $customPadding;
+    @include customFlex;
+    img {
+        border-radius: $borderForImg;
+        @include customFilter(50%);
+        @include imgWidth;
+
+        &:hover{
+            @include customFilter(95%);
+
+        }
+    }
+}
+
